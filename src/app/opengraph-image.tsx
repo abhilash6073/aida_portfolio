@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import fs from "fs";
-import { fileURLToPath } from "url";
+import path from "path";
 
 // Route segment config
 export const runtime = "nodejs";
@@ -16,8 +16,10 @@ export const contentType = "image/png";
 
 // Image generation
 export default async function Image() {
-    // Robustly resolve the file path relative to this file
-    const imagePath = fileURLToPath(new URL('../../public/headshot-og.png', import.meta.url));
+    // Use process.cwd() to resolve the file path in the runtime environment
+    const imagePath = path.join(process.cwd(), "public", "headshot-og.png");
+
+    // Read the image file
     const imageBuffer = fs.readFileSync(imagePath);
     const imageBase64 = `data:image/png;base64,${imageBuffer.toString("base64")}`;
 
