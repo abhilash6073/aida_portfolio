@@ -1,0 +1,124 @@
+.page {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    /* Reusing variables from global/page if accessible, or redefining */
+    /* Assuming global vars are set on body/root, but page.module.css set them on .page. 
+     I'll set them here too to be safe/consistent */
+    --background: #fafafa;
+    --foreground: #fff;
+    --text-primary: #000;
+    --text-secondary: #666;
+    background-color: var(--background);
+}
+
+.main {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--foreground);
+    padding: 120px 60px;
+    gap: 48px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    color: var(--text-primary);
+}
+
+.description {
+    font-size: 16px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 48px 24px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.coverWrapper {
+    position: relative;
+    aspect-ratio: 2 / 3;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.coverWrapper:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.bookInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bookTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.3;
+}
+
+.bookAuthor {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.thoughts {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+    .main {
+        padding: 48px 24px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px 16px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .page {
+        --background: #000;
+        --foreground: #000;
+        --text-primary: #ededed;
+        --text-secondary: #999;
+    }
+
+    .coverWrapper {
+        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+    }
+
+    .coverWrapper:hover {
+        box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+    }
+}

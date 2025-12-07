@@ -1,0 +1,107 @@
+[
+    {
+        "id": "malala",
+        "title": "I Am Malala",
+        "author": "Malala Yousafzai",
+        "coverImage": "/images/books/i-am-malala.jpg",
+        "thoughts": "A powerful memoir about the fight for education and the resilience of the human spirit."
+    },
+    {
+        "id": "naval",
+        "title": "The Almanack of Naval Ravikant",
+        "author": "Eric Jorgenson",
+        "coverImage": "/images/books/naval-ravikant.jpg",
+        "thoughts": "A compilation of wisdom on wealth, happiness, and navigating life in the modern world."
+    },
+    {
+        "id": "sapiens",
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "coverImage": "/images/books/sapiens.jpg",
+        "thoughts": "A thought-provoking exploration of how biology and history have defined us and enhanced our understanding of what it means to be human."
+    },
+    {
+        "id": "palace",
+        "title": "The Palace of Illusions",
+        "author": "Chitra Banerjee Divakaruni",
+        "coverImage": "/images/books/palace-of-illusions.jpg",
+        "thoughts": "A reimagining of the Mahabharata from Draupadi's perspective, weaving myth and history into a human story."
+    },
+    {
+        "id": "lean-in",
+        "title": "Lean In",
+        "author": "Sheryl Sandberg",
+        "coverImage": "/images/books/lean-in.jpg",
+        "thoughts": "An insightful look at women in the workplace and the challenges of leadership."
+    },
+    {
+        "id": "mountains-echoed",
+        "title": "And the Mountains Echoed",
+        "author": "Khaled Hosseini",
+        "coverImage": "/images/books/and-the-mountains-echoed.jpg",
+        "thoughts": "A heartbreaking and beautiful multi-generational family saga."
+    },
+    {
+        "id": "deep-work",
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "coverImage": "/images/books/deep-work.jpg",
+        "thoughts": "Essential rules for focused success in a distracted world."
+    },
+    {
+        "id": "hooked",
+        "title": "Hooked",
+        "author": "Nir Eyal",
+        "coverImage": "/images/books/hooked.jpg",
+        "thoughts": "How to build habit-forming products and understand user behavior."
+    },
+    {
+        "id": "inspired",
+        "title": "Inspired",
+        "author": "Marty Cagan",
+        "coverImage": "/images/books/inspired.jpg",
+        "thoughts": "The manual for creating technology products customers love."
+    },
+    {
+        "id": "rich-dad",
+        "title": "Rich Dad Poor Dad",
+        "author": "Robert T. Kiyosaki",
+        "coverImage": "/images/books/rich-dad-poor-dad.jpg",
+        "thoughts": "Timeless lessons on money, investing, and financial education."
+    },
+    {
+        "id": "start-with-why",
+        "title": "Start With Why",
+        "author": "Simon Sinek",
+        "coverImage": "/images/books/start-with-why.jpg",
+        "thoughts": "How great leaders inspire everyone to take action."
+    },
+    {
+        "id": "magic-thinking-big",
+        "title": "The Magic of Thinking Big",
+        "author": "David J. Schwartz",
+        "coverImage": "/images/books/the-magic-of-thinking-big.jpg",
+        "thoughts": "Set your goals high and exceed them through positive thinking."
+    },
+    {
+        "id": "alchemist",
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "coverImage": "/images/books/the-alchemist.jpg",
+        "thoughts": "A fable about following your dreams and listening to your heart."
+    },
+    {
+        "id": "atomic-habits",
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "coverImage": "/images/books/atomic-habits.jpg",
+        "thoughts": "Tiny changes, remarkable results. A practical guide to habit formation."
+    },
+    {
+        "id": "kite-runner",
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "coverImage": "/images/books/the-kite-runner.jpg",
+        "thoughts": "A gripping story of friendship, betrayal, and redemption."
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Top of Burj Khalifa",
+        "location": "Dubai, UAE",
+        "date": "2025",
+        "description": "Standing 828 meters above the world, the city below looked like a circuit board. A reminder that human ambition knows no bounds.",
+        "takeaway": "Perspective shifts everything.",
+        "image": "https://placehold.co/800x600/1D1D1F/FFFFFF/png?text=Burj+Khalifa"
+    },
+    {
+        "id": 2,
+        "title": "Swimming with Sharks",
+        "location": "Maldives",
+        "date": "2025",
+        "description": "Slipping into the silence of the ocean with nurse sharks gliding past. It wasn't fear I felt, but a profound sense of connection to the wild.",
+        "takeaway": "Calmness in the face of the unknown.",
+        "image": "/maldives-sharks.png"
+    },
+    {
+        "id": 3,
+        "title": "Everest Base Camp",
+        "location": "Nepal",
+        "date": "2024",
+        "description": "12 days of grit, thin air, and awe. Reaching 5,364m wasn't just about the altitude; it was about discovering the reserves of strength I didn't know I had.",
+        "takeaway": "Resilience is a muscle.",
+        "image": "/everest-base-camp.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Summit of Mount Fuji",
+        "location": "Japan",
+        "date": "2023",
+        "description": "A midnight ascent to catch the 'Goraiko' (arrival of light). Watching the sun break over the cloud sea made every step of the grueling climb fade away.",
+        "takeaway": "The climb is worth the view.",
+        "image": "/mount-fuji-summit.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Kedarkantha Trek",
+        "location": "Uttarakhand, India",
+        "date": "2018",
+        "description": "A winter summit at 12,500ft through knee-deep snow. The silence of the pine forests and the 360-degree view of the Himalayas redefined my understanding of peace.",
+        "takeaway": "Silence speaks louder than words.",
+        "image": "https://placehold.co/800x600/2E5E4E/FFFFFF/png?text=Kedarkantha"
+    }
+]

@@ -1,0 +1,55 @@
+.about {
+    background-color: var(--surface);
+    border-radius: var(--radius);
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding: 64px;
+    /* Added padding for internal spacing */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 80px;
+    /* Increased gap for better separation */
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    /* Increased margin */
+}
+
+.text {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    /* Increased margin */
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    /* Aligns with title margin */
+}
+
+.skillGroup {
+    margin-bottom: 24px;
+}
+
+.label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+}

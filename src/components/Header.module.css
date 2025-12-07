@@ -1,0 +1,61 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 100;
+    background: var(--background);
+    /* Opaque background */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    font-size: 1.75rem;
+    /* Increased from 1.25rem */
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.pronouns {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.nav {
+    display: flex;
+    gap: 32px;
+}
+
+.link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: color 0.2s ease;
+}
+
+.link:hover {
+    color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        /* For MVP, hiding nav on mobile or could use a hamburger menu later */
+    }
+}

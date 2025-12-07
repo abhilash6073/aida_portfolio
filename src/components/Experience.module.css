@@ -1,0 +1,118 @@
+.experience {
+    position: relative;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+}
+
+.totalExp {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+    font-family: var(--font-sans);
+}
+
+.timeline {
+    position: relative;
+    border-left: 2px solid var(--border);
+    margin-left: 12px;
+    padding-left: 48px;
+}
+
+.node {
+    position: relative;
+    margin-bottom: 64px;
+}
+
+.node:last-child {
+    margin-bottom: 0;
+}
+
+.marker {
+    position: absolute;
+    left: -57px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: var(--background);
+    border: 4px solid var(--text-primary);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.period {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.duration {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.role {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.companyWrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.logo {
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+.companyLink {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.2s ease;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.companyLink:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+}
+
+.linkIcon {
+    opacity: 0.5;
+}
+
+.companyLink:hover .linkIcon {
+    opacity: 1;
+}
+
+.description {
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.achievements {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: var(--text-secondary);
+}
+
+.achievements li {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "company": "IBS Software",
+        "role": "Senior Product Manager | Product Owner",
+        "period": "June '25 - Present",
+        "startDate": "2025-06-01",
+        "endDate": "Present",
+        "website": "https://www.ibsplc.com",
+        "logo": "https://logo.clearbit.com/ibsplc.com",
+        "description": "Leading the end-to-end launch of iLoyal’s inaugural AI-powered loyalty platform.",
+        "achievements": [
+            "Built a RAG-powered knowledge base assistant reducing contact center resolution time by ~40%.",
+            "Designed automated 'retroclaim' agentic AI to resolve loyalty issues at scale.",
+            "Integrated AI into B2B loyalty workflows supporting $180k annual revenue targets."
+        ]
+    },
+    {
+        "company": "Amadeus",
+        "role": "Product Owner",
+        "period": "Sep '22 - June '25",
+        "startDate": "2022-09-01",
+        "endDate": "2025-06-01",
+        "website": "https://amadeus.com",
+        "logo": "https://logo.clearbit.com/amadeus.com",
+        "description": "Led development of Remote Ticketing & B2B Wallet Solutions.",
+        "achievements": [
+            "Enabled 1,000+ non-IATA agencies to issue tickets, supporting millions of transactions.",
+            "Built a B2B Wallet with multi-currency support facilitating $500M+ in annual transactions.",
+            "Reduced transaction time by 30% for Amadeus Direct through UX optimization."
+        ]
+    },
+    {
+        "company": "Torry Harris Business Solutions",
+        "role": "Product Owner",
+        "period": "Oct '13 - Aug '22",
+        "startDate": "2013-10-01",
+        "endDate": "2022-08-01",
+        "website": "https://www.thbs.com",
+        "logo": "https://logo.clearbit.com/thbs.com",
+        "description": "Owned product roadmaps for Automaton (Test Automation) and 4Sight (AI Analytics).",
+        "achievements": [
+            "Accelerated test automation delivery by 60% with Automaton.",
+            "Won 'Customers Choice' and 'Quality Choice' awards for the product.",
+            "Led development of 4Sight, an AI/ML insights tool for predictive modeling."
+        ]
+    }
+]

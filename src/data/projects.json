@@ -1,0 +1,39 @@
+[
+    {
+        "title": "iLoyal AI Platform",
+        "company": "IBS Software",
+        "category": "AI / RAG",
+        "description": "An Agentic AI solution for loyalty retroclaims and a RAG-powered assistant for contact center agents.",
+        "metrics": "40% faster resolution",
+        "stack": [
+            "LLMs",
+            "RAG",
+            "Python",
+            "AI Observability"
+        ]
+    },
+    {
+        "title": "Remote Ticketing Solution",
+        "company": "Amadeus",
+        "category": "Fintech / B2B",
+        "description": "A platform enabling non-IATA agencies to issue airline tickets and manage bookings without direct GDS access.",
+        "metrics": "$500M+ Volume",
+        "stack": [
+            "Product Strategy",
+            "Payment Integration",
+            "Compliance"
+        ]
+    },
+    {
+        "title": "Automaton",
+        "company": "Torry Harris",
+        "category": "DevTools",
+        "description": "A low-code process automation & testing tool enabling complete test automation of software applications.",
+        "metrics": "60% faster delivery",
+        "stack": [
+            "Low Code",
+            "Automation",
+            "SaaS"
+        ]
+    }
+]
