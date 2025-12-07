@@ -17,9 +17,9 @@ export const contentType = "image/png";
 // Image generation
 export default async function Image() {
     // Robustly resolve the file path relative to this file
-    const imagePath = fileURLToPath(new URL('../../public/headshot.jpg', import.meta.url));
+    const imagePath = fileURLToPath(new URL('../../public/headshot-og.png', import.meta.url));
     const imageBuffer = fs.readFileSync(imagePath);
-    const imageBase64 = `data:image/jpeg;base64,${imageBuffer.toString("base64")}`;
+    const imageBase64 = `data:image/png;base64,${imageBuffer.toString("base64")}`;
 
     return new ImageResponse(
         (
