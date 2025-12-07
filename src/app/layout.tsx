@@ -15,14 +15,6 @@ export const metadata: Metadata = {
     description: "Portfolio of Aida Anna Tom. 12+ years building AI-powered products at IBS, Amadeus, and Torry Harris.",
     url: 'https://aida-portfolio.vercel.app',
     siteName: 'Aida Anna Tom',
-    images: [
-      {
-        url: '/headshot.jpg',
-        width: 800,
-        height: 800,
-        alt: 'Aida Anna Tom',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
   },
@@ -30,7 +22,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Aida Anna Tom | Senior Product Consultant & Product Owner",
     description: "Portfolio of Aida Anna Tom. 12+ years building AI-powered products at IBS, Amadeus, and Torry Harris.",
-    images: ['/headshot.jpg'],
   },
 };
 
