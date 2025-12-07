@@ -1,10 +1,12 @@
 import { ImageResponse } from "next/og";
+import fs from "fs";
+import path from "path";
 
-// Route segment config
-export const runtime = "edge";
+// Route segment config - switch to nodejs to use fs
+export const runtime = "nodejs";
 
 // Image metadata
-export const alt = "Aida Anna Tom | Senior Product Manager & AI Strategist";
+export const alt = "Aida Anna Tom | Senior Product Consultant & AI Strategist";
 export const size = {
     width: 1200,
     height: 630,
@@ -14,8 +16,10 @@ export const contentType = "image/png";
 
 // Image generation
 export default async function Image() {
-    // Font loading (optional, using system fonts for simplicity and speed for now)
-    // strict-local-fonts can be complex without reading file system in edge
+    // Read the image file from the public directory
+    const imagePath = path.join(process.cwd(), "public", "headshot.jpg");
+    const imageBuffer = fs.readFileSync(imagePath);
+    const imageBase64 = `data:image/jpeg;base64,${imageBuffer.toString("base64")}`;
 
     return new ImageResponse(
         (
@@ -46,7 +50,7 @@ export default async function Image() {
                             color: "#111827",
                             marginBottom: 20,
                             lineHeight: 1.1,
-                            display: "flex", // essential for flex layout in OG
+                            display: "flex",
                             flexDirection: "column",
                         }}
                     >
@@ -60,7 +64,7 @@ export default async function Image() {
                             marginBottom: 40,
                         }}
                     >
-                        Senior Product Manager & AI Strategist
+                        Senior Product Consultant | Product Owner
                     </div>
                 </div>
 
@@ -73,17 +77,8 @@ export default async function Image() {
                     border: '8px solid white',
                     boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
                 }}>
-                    {/* 
-               Using an absolute URL for the image is safest. 
-               Since it's generating at build/request time, we need the deployment URL. 
-               For now, we can try using the vercel URL or a placeholder if local.
-               In local dev, using process.env.NEXT_PUBLIC_SITE_URL or similar is common.
-               However, `fetch`ing the local image in Edge runtime can be tricky.
-               Simplest reliable way for now: a styled div representation or trying to fetch if feasible.
-               Let's try standard fetch if the user has a live URL, but safely fallback.
-            */}
                     <img
-                        src="https://aida-portfolio.vercel.app/headshot.jpg"
+                        src={imageBase64}
                         alt="Aida Anna Tom"
                         width="400"
                         height="400"
