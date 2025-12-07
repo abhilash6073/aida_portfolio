@@ -9,6 +9,28 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif"
 export const metadata: Metadata = {
   title: "Aida Anna Tom | Senior Product Manager & AI Strategist",
   description: "Portfolio of Aida Anna Tom. 12+ years building AI-powered products at IBS, Amadeus, and Torry Harris.",
+  openGraph: {
+    title: "Aida Anna Tom | Senior Product Manager & AI Strategist",
+    description: "Portfolio of Aida Anna Tom. 12+ years building AI-powered products at IBS, Amadeus, and Torry Harris.",
+    url: 'https://aida-portfolio.vercel.app',
+    siteName: 'Aida Anna Tom',
+    images: [
+      {
+        url: '/headshot.jpg',
+        width: 800,
+        height: 800,
+        alt: 'Aida Anna Tom',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Aida Anna Tom | Senior Product Manager & AI Strategist",
+    description: "Portfolio of Aida Anna Tom. 12+ years building AI-powered products at IBS, Amadeus, and Torry Harris.",
+    images: ['/headshot.jpg'],
+  },
 };
 
 export default function RootLayout({
