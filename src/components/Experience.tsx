@@ -36,8 +36,8 @@ export default function Experience() {
                                         src={role.logo}
                                         alt={`${role.company} logo`}
                                         className={styles.logo}
-                                        width={24}
-                                        height={24}
+                                        width={48}
+                                        height={48}
                                     />
                                     <a
                                         href={role.website}

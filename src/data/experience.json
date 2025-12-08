@@ -6,7 +6,7 @@
         "startDate": "2025-06-01",
         "endDate": "Present",
         "website": "https://www.ibsplc.com",
-        "logo": "https://logo.clearbit.com/ibsplc.com",
+        "logo": "/logos/ibs-software.png",
         "description": "Leading the end-to-end launch of iLoyal’s inaugural AI-powered loyalty platform.",
         "achievements": [
             "Built a RAG-powered knowledge base assistant reducing contact center resolution time by ~40%.",
@@ -21,7 +21,7 @@
         "startDate": "2022-09-01",
         "endDate": "2025-06-01",
         "website": "https://amadeus.com",
-        "logo": "https://logo.clearbit.com/amadeus.com",
+        "logo": "/logos/amadeus.png",
         "description": "Led development of Remote Ticketing & B2B Wallet Solutions.",
         "achievements": [
             "Enabled 1,000+ non-IATA agencies to issue tickets, supporting millions of transactions.",
@@ -36,7 +36,7 @@
         "startDate": "2013-10-01",
         "endDate": "2022-08-01",
         "website": "https://www.thbs.com",
-        "logo": "https://logo.clearbit.com/thbs.com",
+        "logo": "/logos/thbs.png",
         "description": "Owned product roadmaps for Automaton (Test Automation) and 4Sight (AI Analytics).",
         "achievements": [
             "Accelerated test automation delivery by 60% with Automaton.",
